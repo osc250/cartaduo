@@ -12,7 +12,7 @@
 }
 
 /* Estilos para dispositivos móviles */
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
   #card {
     width: 90%; /* Reducir el ancho para dispositivos móviles */
     height: auto; /* Permitir que la altura se ajuste automáticamente */
@@ -21,8 +21,9 @@
     visibility: hidden; 
     display: flex;
     top: 50px;
- 
-  }
+    left: 0; /* Alinear a la izquierda en dispositivos móviles */
+    right: 0; /* Alinear a la derecha en dispositivos móviles */
+}
   .side.side.one {
     display: none; 
   }
