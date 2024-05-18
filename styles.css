@@ -12,9 +12,9 @@
 }
 
 /* Estilos para dispositivos móviles */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   #card {
-    width: 80%; /* Reducir el ancho para dispositivos móviles */
+    width: 90%; /* Reducir el ancho para dispositivos móviles */
     height: auto; /* Permitir que la altura se ajuste automáticamente */
     margin: 2em auto; /* Ajustar el margen */
     position: static; /* Cambiar la posición a estática para que no sea fija */
